@@ -12,10 +12,10 @@ Azure Active Directory Library (ADAL) support for <a href="https://facebook.gith
 </p>
 
 # react-adal
-Azure Active Directory Library (ADAL) support for ReactJS
+Fork salvoravida Azure Active Directory Library (ADAL) support for ReactJS
 
 ```
-npm install react-adal
+npm install @lesaint/react-adal
 ```
 
 index.js

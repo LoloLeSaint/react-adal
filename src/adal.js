@@ -773,7 +773,7 @@ var AuthenticationContext = (function () {
 
         // remove the existing prompt=... query parameter and add prompt=select_account
         var urlNavigate = this._urlRemoveQueryStringParameter(this._getNavigateUrl('token', resource), 'prompt');
-        urlNavigate = urlNavigate + '&prompt=select_account';
+        //urlNavigate = urlNavigate + '&prompt=select_account';
         if (extraQueryParameters) {
             urlNavigate += extraQueryParameters;
         }
