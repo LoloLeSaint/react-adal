@@ -767,7 +767,8 @@ var AuthenticationContext = (function () {
             return;
         }
 
-        var expectedState = this._guid() + '|' + resource;
+        //var expectedState = this._guid() + '|' + resource;
+        var expectedState = this._guid();
         this.config.state = expectedState;
         this.verbose('Renew token Expected state: ' + expectedState);
 
