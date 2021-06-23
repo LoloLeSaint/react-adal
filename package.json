@@ -1,6 +1,6 @@
 {
   "name": "@lesaint/react-adal",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "Fork salvoravida Azure Active Directory (ADAL) support for ReactJS",
   "main": "lib/react-adal.js",
   "scripts": {
